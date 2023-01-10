@@ -1,0 +1,54 @@
+import React from 'react'
+
+function Footer() {
+  return (
+      <section class="footer" style={{ background: `url("assets/image/footer-bg.jpg") no-repeat` }}>
+
+          <div class="box-container">
+
+              <div class="box">
+                  <h3>quick links</h3>
+                  <a href="#home">home</a>
+                  <a href="#about">about</a>
+                  <a href="#shop">shop</a>
+                  <a href="#packages">packages</a>
+                  <a href="#reviews">reviews</a>
+                  <a href="#blogs">blogs</a>
+              </div>
+
+              <div class="box">
+                  <h3>extra links</h3>
+                  <a href="#">my account</a>
+                  <a href="#">my order</a>
+                  <a href="#">my wishlist</a>
+                  <a href="#">ask questions</a>
+                  <a href="#">terms of use</a>
+                  <a href="#">privacy policy</a>
+              </div>
+
+              <div class="box">
+                  <h3>contact info</h3>
+                  <a href="#"> <i class="fas fa-phone"></i> 01409130405 </a>
+                  <a href="#"> <i class="fas fa-phone"></i> 01409130405 </a>
+                  <a href="#"> <i class="fas fa-envelope"></i>freelancerrtushar@gmail.com </a>
+                  <a href="#"> <i class="fas fa-map"></i> Dhaka, bangladesh - 1362 </a>
+              </div>
+
+              <div class="box">
+                  <h3>follow us</h3>
+                  <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                  <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                  <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                  <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                  <a href="#"> <i class="fab fa-github"></i> github </a>
+              </div>
+
+          </div>
+
+          <div class="credit">created by <span>Mr. Shehabuddin tushar</span> | all rights reserved!</div>
+
+      </section>
+  )
+}
+
+export default Footer
